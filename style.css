@@ -34,6 +34,7 @@ img {
 h1,
 p {
   color: #FFFFFF;
+  text-align: center;
 }
 
 h1 {
@@ -53,6 +54,9 @@ p {
   font-size: 24px;
   font-weight: 200;
   margin-bottom: 32px;
+  max-width: 18ch;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 li {
@@ -74,4 +78,9 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+/* :hover - é uma pseudo-classe do CSS. Serve para aplciar estilos a um elemento quando o usuário passa o mouse sobre ele.*/
+a:hover {
+  background-color: #d50bb7;
 }
